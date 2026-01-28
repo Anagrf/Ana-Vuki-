@@ -1,46 +1,61 @@
 @charset "utf-8";
 /* CSS Document */
 p{
-	color: cornflowerblue;
-	font-size: 14px;
-	line-height: 16px;
-	width: 500;
+	color: darkolivegreen;
+	font-size: 18px;
+	line-height: 20px;
+	width: 300;
 	background-color: beige;
 	padding: 20px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
 }
-.paragraf_2 {color: darkcyan; background-color: rgba(255, 255, 255, 0.5)}
-.novi_blok {
-	background-color: rgba(255, 255, 255, 0.9);
-	padding:20px;
-	margin: 20px;
-	width: 50%;
+.paragraf_2 {color: #4E6637; background-color: rgba(113, 185, 140, 0.5)}
+h1{
+	font-size: 60px;
+	color: #619886;;
+	font-family: AnaVukic
 }
-h1, h2{
-	color: blue;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+h2{
+	font-size: 40px;
+	color: darkcyan;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
 }
-
-span {color: rgba(213,36,218,1.00);}
+h3{
+	font-size: 20px;
+	color: cadetblue;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
 .pozadina{
-	background-image: url("slike/pozadina.jpg");
-	background-color: darkcyan;
+	background-image: url("pozadina.jpg");
+	background-color: #8D7657;
 }
-.drugapozadina{
-	background-color: antiquewhite;
+.trecapozadina{
+	background-color: wheat;
 }
 a:link{
-	color: black;
-	background-color: white;
+	color: #7EB6A2;
+	background-color: #BFD9E8;
 	padding: 5px;
 	line-height: 40px;
-	border: 1px solid #000000;
+	border: 2px solid #EEE8B5;
 }
 
+.nav{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+}
+.drugapozadina{
+	background-color: wheat;
+}
 a:hover{
 	background-color: darkgray;
 }
-
 img{
 	height: 400px;
+}
+.mojvideo{
+	width: 400px;
+	height: auto;
 }
